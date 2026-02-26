@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@100..900&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IM+Fell+French+Canon+SC&family=Roboto+Slab:wght@100..900&family=Tektur:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+     /* navigation-bar & Landing-Page*/
+
+
+.container {
+    width: 100%;
+    height: 770px;
+}
+
+.landingvideo {
+    border-image: fill 0 linear-gradient(#0001, #ffff);
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 780px;
+    object-fit: cover;
+}
+
+.logo {
+    font-family: "Aldrich", sans-serif;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    transition: all .3s ease-in-out;
+}
+
+.logo:hover {
+    color: rgb(22,30, 88);
+}
+
+.ul-home {
+    display: flex;
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 30px;
+    gap: 40px;
+    top: 5%;
+    left: 38%;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    font-family: "Aldrich", sans-serif;
+    font-weight: normal;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: red;
+}
+
+.welcome {
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    top: 48%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.welcome {
+    font-family: Impact, fantasy;
+    font-style: italic;
+    font-weight: 50;
+    font-size: 60px;
+    transition: all .3s ease-in-out;
+}
+
+.welcome:hover {
+    color: darkslategray;
+}
+
+.we{
+    font-family: "Saira", sans-serif;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: 58%;
+    left: 40%;
+    transition: all .3s ease-in-out;
+}
+
+.we:hover {
+    font-weight: normal;
+    color: #a71919;
+}
+
+    /* mainpage-section */
+
+
+
+.container-2 {
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.about-text {
+    font-family: "Tektur", sans-serif;
+    color: white;
+    font-weight:normal;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-left: 60px;
+    transition: all .2s ease-in;
+}
+     
+
+.about-text:hover {
+    font-weight: bold;
+    color: rgb(255, 230, 87);
+}
+
+.about-paragraph {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+
+.Paragraph-1 {
+    font-family: "IM Fell French Canon SC", serif;
+    font-size: 50px;
+    padding-top: 20px;
+    transition: all .1s ease-in;
+}
+
+
+.Paragraph-1:hover {
+    color: rgb(184, 53, 140);
+}
+
+.Paragraph-2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    transition: all .1s ease-in;
+}
+
+
+.Paragraph-2:hover {
+    color: rgb(184, 53, 140);
+}
+
+
+.cards {
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.card-1 {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.title-card-1:hover {
+    color: gold;
+}
+
+.fighter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+    top: 60%;
+    left: 29%;
+}
+
+.bomber {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+    top: 60%;
+    left: 29%;
+}
+
+.cargo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+    top: 60%;
+    left: 27%;
+}
+
+.fighter:hover, .bomber:hover, .cargo:hover {
+    color: #ffb703;
+    font-weight: normal;
+}
+
+.title-card-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;    
+    color: white;
+    position: absolute;
+    top: 72%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+
+.videoss {
+    border-image: fill 0 linear-gradient(#0001, #ffff);
+    display: block;
+    object-fit: cover;
+    border: 0px solid black;
+    border-radius: 20px;
+    width: 430px;
+    height: 650px;
+    cursor: pointer;
+    margin: 30px 30px;
+    transition: all .3s ease-in-out;
+}
+
+
+div .videoss:hover {
+    filter: grayscale(.6);
+}
+
+.defense {
+    font-family: "Poppins", sans-serif;
+    transition: all .3s ease-in-out;
+    color: white;
+    font-weight: bold;
+}
+
+.defense:hover {
+    color: darkred;
+    font-weight: normal;
+}
+
+
+    /* branches */
+
+
+.container-3 {
+    display: flex;
+    height: 780px;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+img {
+    display: flex;
+    width: 500px;
+    height: 330px;
+    padding-bottom: 10px;
+    transition: all .3s ease-in-out;
+    filter: grayscale(100%);
+}
+
+
+.f22-vidd {
+    width: 525.7px;
+    height: 800px;
+    position: relative;
+    filter: grayscale(100%);
+    transition: all .3s ease-in-out;
+}
+
+
+img, .f22-vidd:hover {
+    filter: grayscale(0%);
+}
+
+
+.usaf {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.rus-png {
+    width: 400px;
+    height: 300px;
+}
+
+
+.china-png {
+    width: 350px;
+    height: 150px;
+}
+
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+    /* Gallery */
+
+
+.welcome-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 350px;
+
+}
+
+.deck-img {
+    position: absolute;
+    object-fit: fill;
+    filter: blur(5px);
+    width: 100%;
+    height: 600px;
+    padding-top: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.deck-img:hover {
+    filter: blur(0px);
+    border-bottom-right-radius: 400px;
+    border-top-right-radius: 400px;
+}
+
+.deck-text {
+    font-family: "Roboto Slab", serif;
+    position: relative;
+    color: white;
+    font-weight:normal;
+    font-size: 50px;
+    transition: all .2s ease-in;
+}
+
+.hangarchive:hover {
+    color: rgb(85, 18, 18);
+
+}
+
+.deck {
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.deck-1 {
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+.deck-2 {
+    position: relative;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    transition: all .3s ease-in-out;
+}
+
+.gallery-video {
+    border-image: fill 0 linear-gradient(#0001, #ffff);
+    display: block;
+    object-fit: cover;
+    border: 0px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
+    cursor: pointer;
+    filter: blur(2px);
+    transition: all .3s ease-in-out;
+}
+
+div .gallery-video:hover {
+    filter: blur(0);
+}
+
+.price {
+    position: absolute;
+    transition: all .2s ease-in-out;
+    font-family: "Saira", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    top: 6%;
+    left: 5%;
+}
+
+.price2 {
+    position: absolute;
+    transition: all .2s ease-in-out;
+    font-family: "Saira", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    top: 15%;
+    left: 5%;
+}
+
+.price:hover, .price2:hover {
+    font-weight: normal;
+    color: darkred;
+}
+.titlejet {
+    position: absolute;
+    top: 62%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+}
+
+.titlejet2 {
+    position: absolute;
+    top: 62%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+}
+.titlejet3 {
+    position: absolute;
+    top: 63%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+}
+
+.titlejet4 {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.titlejet5 {
+    position: absolute;
+    top: 62%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+
+.titlejet6 {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.titlejet7 {
+    top: 62%;
+}
+
+.titlejet8 {
+    top: 60%;
+    left: 36%;
+}
+
+.infojet {
+    position: absolute;
+    top: 72%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+}
+
+.infojet:hover {
+    font-weight: normal;
+    color: white;
+}
+
+.infojet2 {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+}
+
+.infojet2:hover {
+    font-weight: normal;
+    color: white;
+}
+
+.infojet3 {
+    position: absolute;
+    top: 78%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+}
+
+.infojet3:hover {
+    font-weight: normal;
+    color: white;
+}
+
+.infojet4 {
+    position: absolute;
+    top: 73%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+}
+
+.infojet4:hover {
+    font-weight: normal;
+    color: white;
+}
+
+.infojet5 {
+    position: absolute;
+    top: 72%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+}
+
+.infojet5:hover {
+    font-weight: normal;
+    color: white;
+}
+
+.infojet6 {
+    position: absolute;
+    top: 72%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+}
+
+.infojet6:hover {
+    font-weight: normal;
+    color: white;
+}
+
+.infojet7 {
+    position: absolute;
+    top: 72%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+}
+
+.infojet7:hover {
+    font-weight: normal;
+    color: white;
+}
+
+.infojet8 {
+    left: 39%;
+}
+
+.infojet, .infojet2, .infojet3, .infojet4, .infojet5, .infojet6, .infojet7 {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    
+}
+
+.titlejet, .titlejet2, .titlejet3, .titlejet4, .titlejet5, .titlejet6 {
+    font-family: "Roboto Slab", serif;
+    color: white;
+    font-weight: normal;
+    transition: all .3s ease-in-out;
+}
+
+.titlejet:hover, .titlejet2:hover, .titlejet3:hover, .titlejet4:hover, .titlejet5:hover, .titlejet6:hover {
+    font-weight: bold;
+    color: gold;
+}
+
+
+    /* footer */
+
+
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    background-color: #0d1b2a;
+    padding: 20px 20px;
+}
+
+.aero-text {
+    font-family: "Saira", sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.aero-sentence {
+    font-family: 'Times New Roman', serif;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 25px;
+}
+.icons-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.icon-2 i .insta:hover {
+    color: rgb(64, 93, 230);
+}
+.footer-icon {
+    border: 1px solid white;
+    width: 25px;
+    height: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px 20px;
+    transition: all .3s ease-in-out;
+}
+
+.footer-icon:hover {
+    background-color: white;
+    transform: scale(1.1);
+    border: none;
+    color: black;
+}
+
+button {
+    width: 35%;
+    color: white;
+    background-color: transparent;
+    font-family: "Tinos", serif;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 12px 12px;
+    transition: all .3s ease-in-out;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: none;
+    transform: scale(1.1);
+}
+
+.companies {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 25px;
+    display: flex;
+}
+
+.li-footer {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.company-list {
+    font-family: "Tinos", serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.company-list:hover {
+    color: white
+}
+
+.cookies {
+    background-color: #0d1b2a;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.cookies-state {
+    font-size: 15px;
+}    
